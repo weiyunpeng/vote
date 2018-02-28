@@ -7,6 +7,10 @@
   <title>投票首页</title>
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="static/css/global.css">
+
+  <script src="./static/js/jquery.min.js"></script>
+  <script src="./static/js/zepto.min.js"></script>
+  <script src="./static/js/jquery.nicescroll.js"></script>
 </head>
 
 <body>
@@ -35,6 +39,82 @@
           <div id="myTit" class="my-title"></div>
           <div id="userSearch" class="user-search"></div>
         </div>
+
+        <div class="slogan-list column-center">
+          <ul class="slogan-list-ul">
+            <li class="slogan-list-li row-around">
+              <div class="slogan-li-num">111</div>
+              <div class="slogan-li-con column">
+                <div class="slogan-li-txt1">标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语</div>
+                <div class="slogan-li-txt2">
+                  <span>学校</span> &nbsp; <span>学院</span> &nbsp;<span>@xxx</span>
+                </div>
+              </div>
+              <div class="zan column-center">
+                <div class="zan-img-show z-hide"></div>
+                <div class="zan-img-hide"></div>
+                <span class="zan-num">99999</span>
+              </div>
+            </li>
+            <li class="slogan-list-li row-around">
+              <div class="slogan-li-num">111</div>
+              <div class="slogan-li-con column">
+                <div class="slogan-li-txt1">标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语</div>
+                <div class="slogan-li-txt2">
+                  <span>学校</span> &nbsp; <span>学院</span> &nbsp;<span>@xxx</span>
+                </div>
+              </div>
+              <div class="zan column-center">
+                <div class="zan-img-show z-hide"></div>
+                <div class="zan-img-hide"></div>
+                <span class="zan-num">99999</span>
+              </div>
+            </li>
+            <li class="slogan-list-li row-around">
+              <div class="slogan-li-num">111</div>
+              <div class="slogan-li-con column">
+                <div class="slogan-li-txt1">标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语</div>
+                <div class="slogan-li-txt2">
+                  <span>学校</span> &nbsp; <span>学院</span> &nbsp;<span>@xxx</span>
+                </div>
+              </div>
+              <div class="zan column-center">
+                <div class="zan-img-show z-hide"></div>
+                <div class="zan-img-hide"></div>
+                <span class="zan-num">99999</span>
+              </div>
+            </li>
+            <li class="slogan-list-li row-around">
+              <div class="slogan-li-num">111</div>
+              <div class="slogan-li-con column">
+                <div class="slogan-li-txt1">标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语</div>
+                <div class="slogan-li-txt2">
+                  <span>学校</span> &nbsp; <span>学院</span> &nbsp;<span>@xxx</span>
+                </div>
+              </div>
+              <div class="zan column-center">
+                <div class="zan-img-show z-hide"></div>
+                <div class="zan-img-hide"></div>
+                <span class="zan-num">99999</span>
+              </div>
+            </li>
+            <li class="slogan-list-li row-around">
+              <div class="slogan-li-num">111</div>
+              <div class="slogan-li-con column">
+                <div class="slogan-li-txt1">标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语标语</div>
+                <div class="slogan-li-txt2">
+                  <span>学校</span> &nbsp; <span>学院</span> &nbsp;<span>@xxx</span>
+                </div>
+              </div>
+              <div class="zan column-center">
+                <div class="zan-img-show z-hide"></div>
+                <div class="zan-img-hide"></div>
+                <span class="zan-num">99999</span>
+              </div>
+            </li>
+          </ul>
+          <p class="about">本活动最终解释权归云台山景区所有</p>
+        </div>
       </div>
     </div>
   </section>
@@ -62,7 +142,60 @@
         <span>搜索</span>
       </div>
     </div>
-    
+    <div class="lists">
+      <div class="coming-box">
+        <ul class="coming">
+          <li>
+            <div class="head">
+              <a href="detail.html">
+                <img src="./static/images/girl.png" alt="">
+              </a>
+            </div>
+            <div class="up">
+              <div class="vote">
+                <span>10票</span>
+              </div>
+              <div class="btn">
+                投TA一票
+              </div>
+            </div>
+            <div class="descr">
+              <a href="detail.html">
+                <div>
+                  <span>江疏影</span>
+                  <span>|</span>
+                  <span>编号#10</span>
+                </div>
+                <p>谁比我美？</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="head">
+              <a href="#">
+                <img src="static/images/boy.png" alt="">
+              </a>
+            </div>
+            <div class="up">
+              <div class="vote">
+                <span>10票</span>
+              </div>
+              <div class="btn">
+                投TA一票
+              </div>
+            </div>
+            <div class="descr">
+              <div>
+                <span>胡歌</span>
+                <span>|</span>
+                <span>编号#11</span>
+              </div>
+              <p>谁比我美？</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
   <div class="mask">
     <div class="submit_info">
@@ -95,6 +228,9 @@
       </div>
     </div>
   </div>
+
+
+  <script src="./static/js/main.js"></script>
 </body>
 
 </html>

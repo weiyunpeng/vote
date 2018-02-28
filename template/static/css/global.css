@@ -15,13 +15,20 @@ a:visited {color: #666666;}
 a:hover {color: #C91618;}
 a:active {color: #666666;}
 
-
+body {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #b5ece6;
+    font-size: 1.2em;
+    font-family:MicrosoftYaHei;
+}
 .z-hide{
     display: none;
 }
-.outer-section {position: relative;overflow: hidden; width:100%; float: left; clear: both;}
-.outer-wrapper {position: relative; width:100%; max-width: 640px; margin: 0 auto;}
-.banner {width:100%; max-width: 640px; height: auto;}
+.outer-section {position: relative;overflow: hidden; width:100%;clear: both;}
+.outer-wrapper {position: relative; width:100%;margin: 0 auto;}
+.banner {width:100%; height: auto;}
 
 /* ******布局样式****** */
 .row {
