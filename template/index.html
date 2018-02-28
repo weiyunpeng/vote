@@ -1,83 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
-	<title>投票首页</title>
-	<link rel="stylesheet" href="static/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  <title>投票首页</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/global.css">
 </head>
+
 <body>
-	<div class="content">
-		<div class="header">
-			<div class="rule">
-				<span>活动规则</span>
-			</div>
-			<div class="title tada">
-				<img src="static/images/title.png" alt="">
-			</div>	
-			<div class="register">
-            <a href="register.html">
-               我要报名
-            </a>
-			</div>
-			<div class="search">
-				<input type="text" placeholder="请输入用户名称">
-				<span>搜索</span>
-			</div>
-		</div>
-        <div class="lists">
-            <div class="coming-box">
-                <ul class="coming">
-                    <li>        
-                        <div class="head">
-                           <a href="detail.html">
-                              <img src="static/images/girl.png" alt="">
-                           </a>
-                        </div>
-                        <div class="up">
-                           <div class="vote">
-                              <span>10票</span>
-                           </div>
-                           <div class="btn">
-                              投TA一票
-                           </div>
-                        </div>
-                        <div class="descr">
-                           <a href="detail.html">
-                             <div>
-                                <span>江疏影</span>
-                                <span>|</span>
-                                <span>编号#10</span>
-                              </div>
-                              <p>谁比我美？</p>
-                           </a>
-                        </div>     
-                    </li>
-               		<li>
-               		    <div class="head">
-               		        <a href="#"><img src="static/images/boy.png" alt=""></a>
-               		    </div>
-               		    <div class="up">
-               		    	<div class="vote">
-               		    		<span>10票</span>
-               		    	</div>
-               		    	<div class="btn">
-               		    		投TA一票
-               		    	</div>
-               		    </div>
-               		    <div class="descr">
-               		        <div>
-                               <span>胡歌</span>
-                               <span>|</span>
-                               <span>编号#11</span>
-                             </div>
-               		        <p>谁比我美？</p>
-               		    </div>
-               		</li>
-                </ul>
-            </div>
+  <!-- Init Page Content Start -->
+  <section class="outer-section">
+    <div class="write-btn"></div>
+    <div class="outer-wrapper column">
+      <div class="title tada">
+        <img src="static/images/title.png" alt="">
+      </div>
+      <img class="banner" src="./static/images/qd_s1.png" alt="" />
+    </div>
+  </section>
+  <section class="outer-section">
+    <div class="outer-wrapper column-center">
+      <img class="banner" src="./static/images/qd_s2.png" alt="" />
+      <a class="qp-btn" href="http://www.baidu.com"></a>
+    </div>
+  </section>
+  <section class="outer-section">
+    <div class="outer-wrapper">
+      <img class="banner" src="./static/images/qd_s3.png" alt="" />
+      <div class="slogan">
+        <div class="search row-center">
+          <input type="number" placeholder="输入编号查询">
+          <div id="myTit" class="my-title"></div>
+          <div id="userSearch" class="user-search"></div>
         </div>
-	</div>
+      </div>
+    </div>
+  </section>
+  <section class="outer-section">
+    <div class="outer-wrapper">
+      <img class="banner" src="./static/images/qd_s4.png" alt="" />
+    </div>
+  </section>
+  <!-- Init Page Content End -->
+  <div class="content z-hide">
+    <div class="header">
+      <div class="rule">
+        <span>活动规则</span>
+      </div>
+      <div class="title tada">
+        <img src="./static/images/title.png" alt="">
+      </div>
+      <div class="register">
+        <a href="register.html">
+          我要报名
+        </a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="请输入用户名称">
+        <span>搜索</span>
+      </div>
+    </div>
+    
+  </div>
   <div class="mask">
     <div class="submit_info">
       <div class="no_signed">
@@ -110,4 +96,5 @@
     </div>
   </div>
 </body>
+
 </html>

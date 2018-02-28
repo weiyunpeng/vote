@@ -32,6 +32,9 @@ html {
 }
 
 body {
+    position: relative;
+    width: 100%;
+    height: auto;
     background-color: #eef9fe;
     font-size: 1.2em;
     font-family: Helvetica, sans-serif;
@@ -40,6 +43,7 @@ body {
 img {
     width: 100%;
     height: 100%;
+    pointer-events: none;
 }
 
 a {
@@ -74,13 +78,10 @@ a {
 }
 
 .title {
-    text-align: center;
-    font-size: 85px;
-    font-weight: bolder;
-    color: #FFE027;
-    text-shadow: 8px 4px 3px #fff;
-    margin: 25px auto -15px auto;
-    width: 250px;
+    position: absolute;
+    left: 20%;
+    top: 28px;
+    width: 280px;
 }
 
 .title img {
@@ -102,36 +103,53 @@ a {
 }
 
 .search {
-    width: 80%;
+    position: relative;
+    top: 54px;
+    left: 0px;
+    width: 100%;
     height: 35px;
     margin: 10px auto;
-    border: 1px solid #44a1e2;
-    border-radius: 40px;
-    overflow: hidden;
-    font-size: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .search input {
-    border: 0;
-    height: 100%;
-    width: 80%;
-    font-size: 16px;
+    position: relative;
+    left: 10px;
+    color: #fff;
+    FILTER: alpha(opacity=0);
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #1b246b;
+    border-radius: 50px;
+    height: 64%;
+    width: 150px;
+    font-size: 12px;
     color: #333;
     text-indent: 15px;
     outline: none;
     vertical-align: middle;
 }
 
-.search span {
-    display: inline-block;
-    width: 20%;
-    height: 100%;
-    line-height: 35px;
-    font-size: 18px;
-    text-align: center;
-    color: #fff;
-    background-color: #44a1e2;
-    vertical-align: middle;
+.user-search{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background: url(./../images/myby-btn.png) no-repeat;
+    background-size: 100%;
+    width: 55px;
+    height: 44px;
+}
+
+.my-title{
+    position: relative;
+    top: 10px;
+    left: 4px;
+    background: url('./../images/search-btn.png') no-repeat;
+    background-size: 100%;
+    width: 55px;
+    height: 44px;
 }
 
 .lists {
@@ -776,3 +794,28 @@ a {
     box-shadow: 0 2px rgba(127, 212, 245, 0.37);
 }
 
+.write-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 65px;
+    background: url(./../images/write-btn.png) no-repeat;
+    background-size: 100%;
+    width: 83px;
+    height: 91px;
+    z-index: 999;
+}
+.qp-btn{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 62px;
+    left: 28%;
+    background-color: red;
+}
+
+.slogan{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
