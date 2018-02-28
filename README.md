@@ -4,36 +4,6 @@
 * 前后数据分离
 
 ###注：头像上传功能暂时没加上去，用户头像都采用默认头像
-
-首页
-
-![Mou icon](./index.jpg)
-
-
-
-报名页
-
-![Mou icon](./register.jpg)
-
-
-
-个人主页
-
-![Mou icon](./detail.jpg)
-
-
-
-搜索页
-
-![Mou icon](./search.jpg)
-
-
-规则页
-
-![Mou icon](./rule.jpg)
-
-
-
 ## 运行项目
 
 克隆项目
