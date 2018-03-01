@@ -1,0 +1,117 @@
+.wrap2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 101%;
+    height: 100%;
+    background-color: rgba(23, 21, 21, 0.71);
+    z-index: 999;
+    overflow: hidden;
+}
+.wrap2-con {
+    position: relative;
+    top: 20%;
+    min-width: 332px;
+    height: 380px;
+    background: url('./../images/wrap2-bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+.wrap2-ul {
+    position: relative;
+    top: 64px;
+    width: 228px;
+    height: 100%;
+}
+.wrap2-select {
+    position: relative;
+    top: 4px;
+    width: 100%;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 1px #1a2469;
+    text-align: center;
+}
+.wrap2-select select {
+    width: 80%;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    padding-right: 14px;
+    font-size: 18px;
+    color: #1a2469;
+    background: url('./../images/icon-ang.png') no-repeat scroll right center
+        transparent;
+}
+
+.wrap2-school {
+    position: relative;
+    margin-top: 12px;
+}
+.wrap2-school .school {
+    padding: 0 6px;
+    width: 35%;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 1px #1a2469;
+}
+.wrap2-school i {
+    margin: 0 10px;
+    background: url('./../images/@.png') no-repeat;
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+}
+.who-say {
+    padding: 0 6px;
+    width: 45%;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 1px #1a2469;
+}
+
+.wrap2-user{
+    position: relative;
+}
+.wrap2-user-name{
+    margin-top: 8px;
+    padding: 0 6px;
+    width: 94%;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 1px #1a2469;
+}
+.wrap2-user-tel{
+    margin-top: 8px;
+    padding: 0 6px;
+    width: 94%;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 1px #1a2469;
+}
+.wrap2-user-textarea{
+    margin-top: 8px;
+    padding: 0 6px;
+    width: 94%;
+    height: 68px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 1px #1a2469;
+}
+
+.poster-btn{
+    position: relative;
+    width: 162px;
+    height: 34px;
+    top: 8px;
+    margin: 0 auto;
+}
+.poster-btn-img{
+    width: 100%;
+}
